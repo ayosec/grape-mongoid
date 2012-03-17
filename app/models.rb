@@ -1,6 +1,6 @@
 require 'mongoid'
 
-Mongoid.load! "mongoid.config"
+Mongoid.load! "config/mongoid.config"
 
 class Thing
   include Mongoid::Document

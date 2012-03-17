@@ -1,5 +1,5 @@
 
-$:.unshift "."
+$:.unshift "./app"
 
 require 'models'
 require 'api'
