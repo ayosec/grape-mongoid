@@ -1,8 +1,7 @@
-
 # Installation
 
 ```
-  $ git clone git://github.com:ayosec/grape-mongoid.git
+  $ git clone git://github.com/ayosec/grape-mongoid.git
   $ cd grape-mongoid
   $ bundle install --binstubs
   $ bin/thin start
