@@ -1,4 +1,3 @@
-
 require 'grape'
 
 class API < Grape::API
@@ -9,7 +8,7 @@ class API < Grape::API
 
   post "/" do
     # All parameters will be stored in the model
-    thing = Thing.create params
+    thing = Thing.new params
 
     if thing.save
       { thingId: thing.id }
